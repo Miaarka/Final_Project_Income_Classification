@@ -53,7 +53,7 @@ def predict(Age, Workclass, Final_Weight, Education, EducationNum, Marital_Statu
 
 def run_ml_app():
     st.title("Income Classification App 💰")
-    st.write("Prediksi apakah seseorang memiliki penghasilan >50K atau <=50K berdasarkan data demografi.")
+    st.write("Predict whether someone has income >50K or <=50K based on demographic data.")
 
     
     Age = st.slider("Age", 17, 90, 30)
